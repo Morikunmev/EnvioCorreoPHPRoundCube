@@ -1,0 +1,10 @@
+# Dependencias
+/vendor/
+composer.lock
+
+# Archivos de configuración con credenciales
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
