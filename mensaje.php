@@ -3,7 +3,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
-// Agregar este use
 use Dotenv\Dotenv;
 
 require 'vendor/autoload.php';
