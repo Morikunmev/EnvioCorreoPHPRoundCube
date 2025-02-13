@@ -1,11 +1,14 @@
-Configuración de PHPMailer para Envío de Correos
-Instalación
-Primero, descarga la clase PHPMailer desde el repositorio oficial:
-https://github.com/PHPMailer/PHPMailer
+# Configuración de PHPMailer para Envío de Correos
 
-Explicacion paso a paso:
-1. Importacion de librerias:
-   // Clases principales
+## Instalación
+Primero, descarga la clase PHPMailer desde el repositorio oficial:
+[PHPMailer en GitHub](https://github.com/PHPMailer/PHPMailer)
+
+## Explicación paso a paso
+
+### 1. Importación de librerías
+```php
+// Clases principales
 use PHPMailer\PHPMailer\PHPMailer;     // Clase principal para enviar emails
 use PHPMailer\PHPMailer\Exception;      // Manejo de excepciones de PHPMailer
 use PHPMailer\PHPMailer\SMTP;           // Clase para configuración SMTP
